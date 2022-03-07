@@ -1,0 +1,6 @@
+framework module Pods_ExMultiSectionCollectionView {
+  umbrella header "Pods-ExMultiSectionCollectionView-umbrella.h"
+
+  export *
+  module * { export * }
+}
