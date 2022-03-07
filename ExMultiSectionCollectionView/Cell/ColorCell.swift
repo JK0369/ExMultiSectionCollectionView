@@ -32,4 +32,3 @@ final class ColorCell: UICollectionViewCell {
     self.colorView.backgroundColor = color ?? .clear
   }
 }
-

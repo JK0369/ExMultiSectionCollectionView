@@ -18,6 +18,7 @@
 		C6CCB4D727D5C8BD00E5F5F6 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CCB4D627D5C8BD00E5F5F6 /* UIColor+Extension.swift */; };
 		C6CCB4D927D5CE0300E5F5F6 /* TitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CCB4D827D5CE0300E5F5F6 /* TitleCell.swift */; };
 		C6CCB4DF27D5D2CC00E5F5F6 /* MySectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CCB4DE27D5D2CC00E5F5F6 /* MySectionModel.swift */; };
+		C6CCB4E127D5DF5900E5F5F6 /* TitleSupplementaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CCB4E027D5DF5900E5F5F6 /* TitleSupplementaryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		C6CCB4D627D5C8BD00E5F5F6 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		C6CCB4D827D5CE0300E5F5F6 /* TitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCell.swift; sourceTree = "<group>"; };
 		C6CCB4DE27D5D2CC00E5F5F6 /* MySectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySectionModel.swift; sourceTree = "<group>"; };
+		C6CCB4E027D5DF5900E5F5F6 /* TitleSupplementaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSupplementaryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		C6CCB4BF27D5B7C600E5F5F6 /* ExMultiSectionCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				C6CCB4E227D5E13A00E5F5F6 /* SupplementaryView */,
 				C6CCB4DD27D5D2C400E5F5F6 /* Model */,
 				C6CCB4DC27D5D2C200E5F5F6 /* Cell */,
 				C6CCB4C027D5B7C600E5F5F6 /* AppDelegate.swift */,
@@ -108,6 +111,14 @@
 				C6CCB4DE27D5D2CC00E5F5F6 /* MySectionModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		C6CCB4E227D5E13A00E5F5F6 /* SupplementaryView */ = {
+			isa = PBXGroup;
+			children = (
+				C6CCB4E027D5DF5900E5F5F6 /* TitleSupplementaryView.swift */,
+			);
+			path = SupplementaryView;
 			sourceTree = "<group>";
 		};
 		F2E4CE4BF8F872072BE425B7 /* Pods */ = {
@@ -234,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6CCB4E127D5DF5900E5F5F6 /* TitleSupplementaryView.swift in Sources */,
 				C6CCB4D927D5CE0300E5F5F6 /* TitleCell.swift in Sources */,
 				C6CCB4C527D5B7C600E5F5F6 /* ViewController.swift in Sources */,
 				C6CCB4D527D5C73A00E5F5F6 /* ColorCell.swift in Sources */,
